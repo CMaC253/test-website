@@ -3,7 +3,7 @@
     $n = $_POST['n']; // HINT: use preg_replace() to filter data
     $e = $_POST['e'];
     $m = nl2br ($_POST['n']);
-    $to = "colin_mcdonald2@msn.com"
+    $to = "testemail_here@test.com"
     $from = $e;
     $subject = 'Contact Form Message';
     $message = '<b>Name:</b> '.$n.' <br><b>Email:</b> '.$e.' <p> '.$m.'</p>';
